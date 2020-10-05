@@ -1,1 +1,152 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h2 {
+    margin-bottom: 80px;
+}
+
+
+
+.container {
+    width: 100%;
+    text-align: center;
+    border: 2px solid black;
+    position: absolute;
+    padding: 50px;
+}
+
+
+
+.chicken,
+.beef,
+.sushi {
+    width: 33.33%;
+    border: 2px solid black;
+    float: left;
+    position: relative;
+    background-color: darkgrey;
+    padding: 60px;
+    text-align: justify;
+    
+
+
+
+
+
+
+}
+
+.ctitle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-weight: bold;
+    background-color: darkkhaki;
+    padding: 15px;
+
+}
+
+
+
+.btitle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+
+
+
+}
+
+
+
+
+.stitle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    background-color: lightskyblue;
+
+
+
+}
+
+
+/* desktop one...... */
+
+@media only screen and (min-width: 992px) {
+
+    .chicken,
+    .beef,
+    .sushi {
+        width: 31%;
+        margin: 10px;
+
+    }
+
+}
+
+
+
+/* tablet view ....................*/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .chicken,
+    .beef {
+        width: 46%;
+        margin: 10px;
+       
+
+
+
+    }
+
+    .sushi {
+        width: 100%;
+
+    }
+
+}
+
+
+
+
+
+/* mobile view .............*/
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .chicken, .beef, .sushi {
+       width: 100%;
+       margin: 10px;
+       
+       
+    }
+
+  
+}
